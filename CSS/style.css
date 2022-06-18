@@ -8,6 +8,22 @@ nav {
   background: white;
 }
 
+h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+  /* color: #FAC213; */
+}
+
+h3 {
+  font-family: 'Abril Fatface', sans-serif;
+  color: gray;
+}
+
+h3 + p {
+  color: gray;
+}
+
 .nav-block {
   display: inline-block;
   list-style: none;
@@ -24,7 +40,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: #0988b5;
+  color: gray;
 }
 
 /* button>a {
@@ -36,7 +52,7 @@ a {
 }
 
 .call-to-action {
-  width: auto;
+  max-width: 40%;
   display: inline-block;
   position: absolute;
   left: 5%;
@@ -135,6 +151,8 @@ a {
 }
 
 .success {
+  font-size: 17px;
+  color: white;
   width: 600px;
   margin: auto;
   padding: 100px 0;
@@ -145,7 +163,8 @@ a {
 }
 
 .foot-li {
-  color: white;
+  color: #fff;
+  font-size: 14px;
 }
 
 .foot-info {
@@ -154,6 +173,7 @@ a {
 }
 
 footer {
+  padding: 100px 10px 10px;
   background: #0988b5;
   color: white;
 }
