@@ -14,7 +14,6 @@ nav {
   background: white;
 }
 
-
 .nav-block {
   display: inline-flex;
   list-style: none;
@@ -28,7 +27,6 @@ nav {
   padding: 20px;
   display: inline-block;
 }
-
 
 h1 {
   font-family: 'Abril Fatface', sans-serif;
@@ -52,8 +50,7 @@ h3 {
   display:inline-block;
   width: 100px;
 } */
-
-h3 + p {
+h3+p {
   color: gray;
 }
 
@@ -72,7 +69,7 @@ a {
 .banner {
   width: 100%;
   position: relative;
-  padding-top:64px;
+  padding-top: 64px;
 }
 
 .call-to-action {
@@ -153,14 +150,40 @@ a {
   }
 }
 
-.brand-id {
-  max-width: 500px;
-  padding: 10px 35px;
-  display: inline-block;
+.plan-btn {
+  cursor: pointer;
+  width: 100%;
+  height: 48px;
+  background-color: #06f;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 0;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: white;
 }
 
+.plan-btn:hover {
+  background: #0988b5;
+
+}
+
+/* .brand-id {
+  display: inline-block;
+} */
+
 .brand-logo {
-  width: 40px;
+  width: 60px;
+  padding-left: 15px;
+}
+
+.brand-text {
+  color: black;
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+  padding: 0 20px;
 }
 
 .bottom-sec {
@@ -217,8 +240,12 @@ footer {
   border-radius: 15px;
   display: inline-block;
   border: 1px solid #0988b5;
-  border-top: 10px solid  #0988b5;
+  border-top: 10px solid #0988b5;
   margin: 0 20px;
+  position: relative;
+  /* moz-border-sizing: border-box;
+  webkit-border-sizing:border-box; */
+  box-sizing: border-box;
 }
 
 .plan-section {
@@ -229,9 +256,4 @@ footer {
   width: 1100px;
   margin: 0 auto;
   text-align: center;
-}
-
-.plan-btn {
-  width: 95%;
-  background-color: #0988b5;
 }
