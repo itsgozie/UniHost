@@ -86,19 +86,17 @@ a {
   height: auto;
 }
 
-.LR-container {
-  /* align-items: center; */
-  width: auto;
-  height: auto;
-  margin: auto;
-}
-
-.L-side, .C-side, .R-side {
+.cards {
   width: 300px;
   height: 200px;
-  margin: 50px 50px;
+  margin: 50px;
   display: inline-block;
   color: #0988b5;
+  text-align: left;
+}
+
+.LR-container {
+  text-align: center;
 }
 
 .btn {
