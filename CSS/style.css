@@ -262,3 +262,12 @@ footer {
   text-align: left;
   display: inline-inline-block;
 }
+
+.foot-small {
+  text-align: center;
+  padding: 5px;
+}
+
+div>small>a {
+  color: white;
+}
